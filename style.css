@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+body{
+  background-color:#262526;
+  color:#f6ecec;
+  font-family: 'Itim', cursive;
+}
+.title{
+  text-align:center ;
+  margin:40px 40px ;
+}
+.container{
+  text-align:center ;
+  justify-items: center ;
+}
+.table{
+  
+  margin:auto ;
+  
+}
+.cell{
+  border:solid 1px ;
+  width:100px;
+  height:100px ;
+  font-size: 80px;
+  text-align:center ;
+  border-radius:20px ;
+  background-color:#ede8c6;
+  color:#262526;
+}
+.cell1 {
+  border: solid 1px;
+  width: 100px;
+  height: 100px;
+  font-size: 80px;
+  text-align: center;
+  border-radius: 20px;
+  margin-right: solid 10px ;
+}
+.cell3{
+  border:solid 1px ;
+  width:100px;
+  height:100px ;
+  font-size: 80px;
+  text-align:center ;
+  border-radius:20px ;
+}
+.selecionarOption{
+  margin:20px ;
+  display: flex ;
+  flex-direction:column ;
+  gap: 10px ;
+}
+.replay{
+  display: none;
+  margin:20px
+}
+.btn{
+  margin :5px ;
+  margin-top:10px ;
+  width:70px;
+  height:40px ;
+  border-radius:20px ;
+  background-color:#ede8c6;
+  color:#262526;
+  font-family: 'Itim', cursive;
+}
+.btn:hover{
+  background-color:#262526;
+  color:white ;
+  border:solid 1px white ;
+}
+.finJuego{
+  margin:auto ;
+  margin-top:50px;
+  width:100px ;
+  height:40px ;
+  font-size :30px ;
+  text-align:center ;
+}

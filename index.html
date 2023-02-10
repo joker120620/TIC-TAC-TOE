@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>triki xd</title>
+
+</head>
+<body>
+    <header>
+      <h1 class="title ">TIC TAC TOE </h1>
+    </header>
+    <main>
+        <section class="container ">
+            <table class="table">
+                <tr>
+                    <td class="cell" id="0"></td>
+                    <td class="cell" id="1"></td>
+                    <td class="cell" id="2"></td>
+                </tr>
+                <tr>
+                    <td class="cell" id="3"></td>
+                    <td class="cell" id="4"></td>
+                    <td class="cell" id="5"></td>
+                </tr>
+                <tr>
+                    <td class="cell" id="6"></td>
+                    <td class="cell" id="7"></td>
+                    <td class="cell" id="8"></td>
+                </tr>
+            </table>
+            <div class="finJuego">
+                <div class="text"></div>
+            </div>
+            <div class = "selecionarOption">
+            <p>Selecione Entre</p>
+              <button class="btn"onClick="selecionarOption('X')">X</button>
+              <button class="btn" onClick="selecionarOption('O')">O</button>
+            </div>
+            <div class="replay">
+               <button class="btn" onClick="inicio()">Replay</button>
+            </div>
+           
+            
+            
+        </section>
+    </main>
+    <footer></footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
